@@ -13,17 +13,17 @@ CREATE TABLE products (
 
 -- Insert data into the 'products' table --
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES  ('Dove Shampoo', 'Cosmetics', 5.75, 500),
-		('Dove Conditioner', 'Cosmetics', 6.25, 627),
-		('Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
-		('Brawny Paper Towels', 'Grocery', 4.25, 400),
-		('Granny Smith Apples', 'Produce', 0.35, 800),
-		('Chiquita Bannana', 'Produce', 0.20, 10000),
-		('Tropicana Orange Juice', 'Grocery', 4.45, 267),
-		('Horizon Organic Milk', 'Grocery', 4.50, 200),
-		('Huggies Diapers', 'Children', 2.75, 476),
-		('Charmin Toiler Paper', 'Grocery', 12.99, 575),
-		('Pampers Baby Wipes', 'Children', 1.50, 423),
-		('Ibuprophen', 'Pharmacy', 4.95, 389),
-		('Band Aid', 'Pharmacy', 3.25, 550),
-		('Ben & Jerry Ice Cream', 'Grocery', 3.25, 432);
+VALUES  ('Master Sword', 'Weapons', 500.00, 1),
+		('Potion of Minor Healing', 'Health & Mana', 6.25, 627),
+		('Potion of Major Healing', 'Health & Mana', 10.99, 300),
+		('Felix Felicis', 'Potions', 100.00, 5),
+		('Vial of Dragon Blood', 'Components', 50.00, 250),
+		('Potion of Mana', 'Health & Mana', 7.50, 10000),
+		('Potion of Darkvision', 'Potions', 4.45, 1000),
+		('Phoenix Down', 'Health & Mana', 20.00, 200),
+		('Master Ball', 'Animal Captivity', 400.00, 1),
+		('Deku Stick', 'Weapons', 3.00, 1000),
+		('Ocarina(ofTime)', 'Enchanted Musical Instruments', 500.00, 1),
+		('Heart Container', 'Health & Mana', 400.00, 2),
+		('Pokeball', 'Animal Captivity', 10.00, 9999),
+		('Chocobo', 'Livestock', 750.00, 4);
