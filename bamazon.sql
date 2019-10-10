@@ -1,11 +1,13 @@
+-- Create a database called 'Bamazon' and switch into it for this activity --
+DROP DATABASE IF EXISTS Bamazon;
 CREATE DATABASE Bamazon;
 USE Bamazon;
 
--- Create a table called 'products' which will contain the store inventory --
+-- Create a table called 'products' which will contain the store inventory. Name them id, product, department, price, and stock. --
 CREATE TABLE products (
-	item_id INTEGER(11) AUTO_INCREMENT NOT NULL,
+	item_id INTEGER(15) AUTO_INCREMENT NOT NULL,
 	product_name VARCHAR(30) NOT NULL,
-	department_name VARCHAR(20) NOT NULL,
+	department_name VARCHAR(30) NOT NULL,
 	price DECIMAL(10,2) NOT NULL,
 	stock_quantity INTEGER(11) NOT NULL,
 	PRIMARY KEY (item_id)
@@ -23,7 +25,7 @@ VALUES  ('Master Sword', 'Weapons', 500.00, 1),
 		('Phoenix Down', 'Health & Mana', 20.00, 200),
 		('Master Ball', 'Animal Captivity', 400.00, 1),
 		('Deku Stick', 'Weapons', 3.00, 1000),
-		('Ocarina(ofTime)', 'Enchanted Musical Instruments', 500.00, 1),
+		('Ocarina(ofTime)', 'Enchanted Instruments', 500.00, 1),
 		('Heart Container', 'Health & Mana', 400.00, 2),
 		('Pokeball', 'Animal Captivity', 10.00, 9999),
 		('Chocobo', 'Livestock', 750.00, 4);
